@@ -5,12 +5,14 @@ cp .env.example .env
 ```
 ex) 아래와 같이 넣어주면 된다.
 ```text
+DEBUG=True
+SECRET_KEY=
+
 POSTGRES_NAME=postgres
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
 POSTGRES_HOST=db
 POSTGRES_PORT=5432
-SECRET_KEY=
 ```
 
 ### 2. SECRET_KEY를 생성 한다.
